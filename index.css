@@ -62,3 +62,9 @@ h1 {
   .num-counts {
     font-weight: bolder;
   }
+
+  @media (max-width: 600px){
+    .flex {
+        width: 100px;
+    }
+  }
