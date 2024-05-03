@@ -9,7 +9,7 @@ body {
     align-items: center;
     justify-content: center;
     border: 10px solid blueviolet;
-    height: 30rem;
+    height: 50%;
     flex-grow: 1;
     margin-top: 50px;
     width: 50%;
