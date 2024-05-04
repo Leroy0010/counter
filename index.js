@@ -35,3 +35,14 @@ $(".total").on("click", function () {
     }, 300);
 }
 );
+
+$(".decrement").on("click",function () {
+    if(counter > 0){
+        counter--;
+        $(".count").text(counter);
+        $('.decrement').addClass("pressed");
+        setTimeout(function () {
+            $(".decrement").removeClass("pressed");
+        }, 300);
+    }
+});
