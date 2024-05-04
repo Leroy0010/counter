@@ -28,11 +28,15 @@ $(".save").on("click", function () {
 
 $(".total").on("click", function () {
     for (var index = 0; index < counts.length; index++) {total += counts[index];}
+
     $(".p-total").text("The total is: " + total);
     $('.total').addClass("pressed");
     setTimeout(function () {
         $(".total").removeClass("pressed");
     }, 300);
+    counts = [];
+    total = 0;
+    $(".num-count").text("Counts: ");
 }
 );
 
